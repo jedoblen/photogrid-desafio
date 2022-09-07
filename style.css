@@ -2,8 +2,8 @@
 
 body{
     font-family: 'Silkscreen', cursive;
-    color:#f0fff0;
-    background-color:#252525;
+    color:#222222;
+    background-color:#ebebeb;
 }
 /*header*/
 .main{
@@ -39,10 +39,11 @@ body{
 }
 
 .text{
-    background: #4F4F4F;
+    background: #c9c9c9;
     padding: 15px 10px;
     font-size: 0.875rem;
     text-align: center;
+    border-radius: 5px 5px 0 0;
 } 
 
 .item-card{
@@ -51,11 +52,11 @@ body{
     border-radius: 2%;
     align-items: center;
 }
-.card:hover{
+.img-card:hover{
     border: 1px solid;
     padding: 10px;
     box-shadow: 10px 20px;
-    background-color:rgb(50,50,50);
+    background-color:rgb(218, 214, 214);
     transition:  0.3s;
 }
 /*footer*/
